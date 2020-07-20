@@ -106,7 +106,14 @@ strong{
   margin-left: -3px;
   bottom: 20;
 }
-
+hr.solid{
+  border-top: 1px solid gray;
+  position: absolute;
+  width:850px;
+  right:0;
+  top:95%;
+  left:30%;
+}
 /*Educational qualifications*/
 .edu-details{
   display: inline-block;
