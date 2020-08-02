@@ -189,7 +189,7 @@ margin:20px;
   border:15px black;
   padding:30px;
   margin:20px;
-  margin-left: 35%;
+  margin-left: 40%;
   background-color: lightgreen;
 }
 .PhD{
@@ -343,4 +343,9 @@ textarea {
 }
 .social-links li.facebook a:hover {
   color: #3b5998;
+}
+@media screen and (max-width:450px){
+  body{
+    max-width:100%;
+  }
 }
