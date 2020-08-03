@@ -1,17 +1,22 @@
-    .dark-mode {
+.dark-mode {
   background-color: black;
   color: white;
 }
     .top_ban{
-   background:#CEA18F ;
+   background:linear-gradient(#020024,#097679) ;
   color:#ffffff;
   padding: 15px;
 }
 .space{
   padding:10px;
 }
+@media screen and (min-width:768px){
+  .space{
+    padding:15px;
+  }
+}
 .int_ban{
-   background:#CEA18F ;
+   background:linear-gradient(#020024,#097679) ;
   color:#ffffff;
   padding: 15px;
 }
@@ -146,6 +151,13 @@ hr.style13 {
     width:100%;
   }
 }
+@media screen and (min-width:768px){
+  hr.style13{
+    height: 10px;
+    border: 0;
+    width: 100%
+  }
+}
 hr.style12 {
   height: 10px;
   border: 0;
@@ -244,7 +256,7 @@ textarea {
   border-color:  #F5B7B1;
 }
 .bottom_ban{
-  background: linear-gradient(#AF7AC5 ,#5DADE2 );
+  background:linear-gradient(#020024,#097679) ;
   color:#ffffff;
   padding: 20px;
   text-align: center;
